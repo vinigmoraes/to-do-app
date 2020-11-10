@@ -130,10 +130,11 @@
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="1924" y="313" key="refactoring.ChangeSignatureDialog/0.0.1440.900/1440.0.2560.1080@1440.0.2560.1080" timestamp="1603081060913" />
-    <state x="1742" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1603081317134">
-      <screen x="1440" y="0" width="2560" height="1080" />
+    <state x="1742" y="259" width="670" height="662" key="search.everywhere.popup" timestamp="1603248117173">
+      <screen x="1440" y="23" width="2560" height="1057" />
     </state>
     <state x="1742" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.2560.1080@1440.0.2560.1080" timestamp="1603081317134" />
+    <state x="1742" y="259" width="670" height="662" key="search.everywhere.popup/0.23.1440.827/1440.23.2560.1057@1440.23.2560.1057" timestamp="1603248117173" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

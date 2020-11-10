@@ -15,5 +15,5 @@ func (s ItemService) CreateItem(dto ports.CreateItemDTO) uuid.UUID {
 
 	s.repository.Insert(item)
 
-	return item.Id
+	return item.ID
 }

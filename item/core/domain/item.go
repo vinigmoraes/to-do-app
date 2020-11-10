@@ -7,7 +7,7 @@ import (
 )
 
 type Item struct {
-	Id          uuid.UUID
+	ID          uuid.UUID
 	Input       string
 	Category    string
 	completed   bool
@@ -17,10 +17,10 @@ type Item struct {
 
 func NewItem(input string, category string) *Item {
 	return &Item{
-		Id:          uuid.New(),
+		ID:          uuid.New(),
 		Input:       input,
 		Category:    category,
 		completed:   false,
 		createdAt:   time.Now(),
-		completedAt: nil}
+	}
 }

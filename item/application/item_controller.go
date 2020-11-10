@@ -14,7 +14,7 @@ type ItemController struct {
 
 type Items []request.CreateItemRequest
 
-func (c *ItemController) CreateItem(ctx echo.Context, w http.ResponseWriter) error {
+func (c *ItemController) CreateItem(ctx echo.Context) error {
 	item := request.CreateItemRequest{}
 	ctx.Bind(&item)
 
