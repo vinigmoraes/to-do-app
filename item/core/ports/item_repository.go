@@ -7,10 +7,10 @@ type ItemRepository interface {
 	Insert(item *domain.Item)
 }
 
-type UserRepositoryAdapter struct {
-	items []domain.Item
+type ItemRepositoryAdapter struct {
+	items []*domain.Item
 }
 
-func (u UserRepositoryAdapter) Insert(item domain.Item) {
-	u.items = append(u.items, item)
+func (adapter ItemRepositoryAdapter) Insert(item *domain.Item) {
+	adapter.items = append(adapter.items, item)
 }

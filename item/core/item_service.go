@@ -7,13 +7,13 @@ import (
 )
 
 type ItemService struct {
-	repository ports.ItemRepository
+	Repository ports.ItemRepository
 }
 
-func (s ItemService) CreateItem(dto ports.CreateItemDTO) uuid.UUID {
+func (s *ItemService) CreateItem(dto ports.CreateItemDTO) uuid.UUID {
 	item := domain.NewItem(dto.Input, dto.Category)
 
-	s.repository.Insert(item)
+	s.Repository.Insert(item)
 
 	return item.ID
 }
